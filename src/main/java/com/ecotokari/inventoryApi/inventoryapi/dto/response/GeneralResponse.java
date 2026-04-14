@@ -1,0 +1,14 @@
+package com.ecotokari.inventoryApi.inventoryapi.dto.response;
+import java.time.LocalDate;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class GeneralResponse {
+    private int statusCode ;
+    private String message ;
+    private LocalDate timeStamp;
+}
